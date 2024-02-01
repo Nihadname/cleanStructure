@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+header{
+    background-color: rgb(44, 62, 80);
+}
+.container{
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.Main-Idea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px;
+   
+}
+.mainPartSection{
+    background-color: #1abc9c;
+}
+.Main-Idea .left a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: font-size 0.3s;
+}
+.Main-Idea .right a{
+    margin-left: 26px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.Main-Idea .right .extraOne {
+
+padding: 15px;
+    padding-top: 8px;
+    padding-bottom: 11px;
+    padding-right: 19px;
+    padding-left: 15px;
+}
+.Main-Idea .right .extraOne:hover{
+    color: #fff;
+}
+.Main-Idea .right a:hover{
+    color: #1abc9c;
+}
+.TheMain .items img{
+    width: 15rem;
+    margin-bottom: 1.5rem;
+    margin-left: 169px;
+}
+.TheMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1abc9c;
+}
+.TheMain .items h1{
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 3.5rem;
+margin-bottom: 1.5rem;
+}
+.icon-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-div .line{
+    border-bottom: 5px solid #fff;
+    width: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #fff;
+}
+.icon-div .icon{
+    color: #fff;
+    font-size: 29px;
+}
