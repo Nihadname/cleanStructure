@@ -73,6 +73,7 @@ margin-bottom: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2.9rem;
 }
 .icon-div .line{
     border-bottom: 5px solid #fff;
@@ -84,4 +85,10 @@ margin-bottom: 1.5rem;
 .icon-div .icon{
     color: #fff;
     font-size: 29px;
+}
+.TheMain p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+margin-bottom: 98px;
 }
